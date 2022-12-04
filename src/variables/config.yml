@@ -1,0 +1,33 @@
+batch_size: 128
+c_vtlp_repeats: 3
+cw_stretch_repeats: 2
+cw_vtlp_repeats: 5
+demo_mode: false
+gpu_mem_grow: true
+high_freq_cutoff: 2000
+low_freq_cutoff: 50
+lr: 0.0003
+model_name: speech
+n_epochs: 35
+n_filters: 50
+roll_fft: false
+sample_height: 50
+sample_length: 5.0
+sample_rate: 4000
+sample_width: 332
+sc_thresh: 0.48
+se_thresh: 0.35
+sp_thresh: 0.35
+stretch_percent: 10
+target_sample_rate: 4000
+vtlp_alpha:
+- 0.9
+- 1.1
+vtlp_upper_freq:
+- 3200
+- 3800
+w_vtlp_repeats: 4
+window_length: 25
+window_step: 15
+window_type: hann
+sample_tiling: false
