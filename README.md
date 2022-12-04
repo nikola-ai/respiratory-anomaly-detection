@@ -10,8 +10,8 @@ Neural Network (CNN) for detection of respiratory anomalies. [Training pipeline]
 
 # Problem And Motivation
 Respiratory sounds are important indicators of respiratory health and 
-respiratory disorders. Anomalous sounds such as crackles and wheezing sounds, 
-for example, are a common sign that a patient has an obstructive airway 
+respiratory disorders. Anomalous sounds such as **crackles** and **wheezes** 
+are a common sign that a patient has an obstructive airway 
 disease like asthma, chronic obstructive pulmonary disease (COPD), etc.
 
 # Dataset
